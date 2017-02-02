@@ -45,6 +45,16 @@ For now, the included packages are:
 
 Stay tuned for update!
 
+# Pull Request
+
+Pull Requests will NOT be accepted, since all packages and repo changes require to
+be signed by the maintainer. A package is included if and only if the packaging
+task is a project of HardenedLinux.
+
+You may consider joining HardenedLinux by creating an issue, and make your packaging
+task a project of HardenedLinux. However, packaging and publishing are still made by
+the maintainer(s) alone.
+
 # Security
 
 When a security update came out but the repository is not updated yet, you can create
