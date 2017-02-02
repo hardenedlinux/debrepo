@@ -95,3 +95,7 @@ key is hosted in three individual places.
 If you find the keys are unmatched, this might indicate a malicious phishing or MITM
 attack, report an issue immediately!
 
+# Reproducible Build
+
+Reproducible Build is not used for any packages within the repository. After everything is
+getting on track, reproducible build will be used for all packages.
