@@ -18,6 +18,9 @@ Then, import the signing key to your system keyring.
 
     apt-key adv --fetch-keys https://tomli.blog/pubkey.asc
 
+Finally, update your package database.
+
+    apt update
 
 Please note that currently the repository is hosted on GitHub, HTTPS is not
 supported. You are expected to change the address as we ready to publish the
