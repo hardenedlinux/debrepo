@@ -1,0 +1,5 @@
+Origin: . jessie
+Label: . jessie
+Architecture: source
+Archive: jessie
+Component: main

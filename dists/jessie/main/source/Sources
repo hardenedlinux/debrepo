@@ -1,0 +1,20 @@
+Package: elfix
+Version: 0.9.2-harden2
+Maintainer: Yifeng Li (Tom Li) <biergaizi@member.fsf.org>
+Architecture: any
+Binary: elfix
+Format: 3.0 (quilt)
+Package-List: elfix deb misc optional arch=any
+Standards-Version: 3.9.2
+Directory: pool/main/e/elfix
+Files: a1e94e7d88816d21dfff060004b59a5a 2116 elfix_0.9.2-harden2.debian.tar.xz
+ ab4a43213c237c3d4670c1732297ed20 1806 elfix_0.9.2-harden2.dsc
+ 207c91390546e431b14d89a7501d5eca 398758 elfix_0.9.2.orig.tar.gz
+Checksums-Sha1: c10aba3da1c0b5a2b31f1b48e2070506040adafe 2116 elfix_0.9.2-harden2.debian.tar.xz
+ 885d45318e0e79f7bad7a707e1ef87c922f04204 1806 elfix_0.9.2-harden2.dsc
+ e463e180a07c2dc7be4ad539baacfd7b6f47ac03 398758 elfix_0.9.2.orig.tar.gz
+Checksums-Sha256: 61cfea654b22ad5b02336000c0815bc0f4fdd4f3c593f6f666690aca4723d9fb 2116 elfix_0.9.2-harden2.debian.tar.xz
+ 756ffec5890ca846db8c5d01f03134a7ddfc80f0b49073589033764d4921496d 1806 elfix_0.9.2-harden2.dsc
+ 1a50ec57d6f5d1b25dcaaaf15f82849774e9e4e7e263cee3aa4936c5e3d6f071 398758 elfix_0.9.2.orig.tar.gz
+Build-Depends: debhelper (>= 9), libelf-dev, libattr1-dev, dh-autoreconf, python-all, python-setuptools, python-all-dev, dh-python
+

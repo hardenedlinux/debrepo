@@ -1,0 +1,27 @@
+Package: elfix
+Version: 0.9.2-harden2
+Installed-Size: 122
+Priority: optional
+Section: misc
+Maintainer: Yifeng Li (Tom Li) <biergaizi@member.fsf.org>
+Architecture: amd64
+Description: tools to work with ELF binaries and libraries on Hardened Gentoo
+ Elfix is a suite of tools to work with ELF binaries and libraries on Hardened
+ Gentoo. The latest version has the following utilities:
+ - paxctl-ng - Swiss army knife for working with PT_PAX and/or XATTR_PAX flags
+ - pypaxctl - Simple tool to get or set PT_PAX and/or XATTR_PAX flags
+ - revdep-pax - Find mismatching PaX markings between ELF objects and their
+   libraries
+ - migrate-pax - Migrate PaX flags from PT_PAX to XATTR_PAX for all ELF objects
+   on a system
+ - pypax.so - Python module to get or set PT_PAX and/or XATTR_PAX flags
+ - paxmark.sh - A bash script wrapper to paxctl-ng/paxctl/scanelf/setfattr to
+   find any available utility to set PT_PAX and/or XATTR_PAX flags
+MD5sum: 8f51e3924a5765de28e3a2da5bc80639
+SHA1: c50a0764c79805df5187e79d6a1d4e9d4f83758b
+SHA256: 9a7aee5fccd2f09d4c480e20923977f27ab0dc38233c9a6d345adfd4c5a82b5f
+Source: 
+Filename: pool/main/e/elfix/elfix_0.9.2-harden2_amd64.deb
+Size: 28032
+Depends: libattr1 (>= 1:2.4.46-8), libc6 (>= 2.4), libelf1 (>= 0.144), python (<< 2.8), python (>= 2.7~)
+

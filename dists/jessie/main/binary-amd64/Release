@@ -1,0 +1,5 @@
+Origin: . jessie
+Label: . jessie
+Architecture: amd64
+Archive: jessie
+Component: main
